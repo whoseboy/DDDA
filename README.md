@@ -3,7 +3,20 @@ DDDA can solve the dynamics system automatically in process between data acquisi
 and take them back to innovation.
 
 ## How to use?
-The well packed code is coming soon.
+(The well packed code is coming soon.)
+
+**v0.0.0:**  2D Tube flow example
+1. Download
+
+&ensp; (https) git clone https://github.com/whoseboy/DDDA.git
+
+&ensp; (ssh) git clone git@github.com:whoseboy/DDDA.git
+
+2. Run tube flow example
+
+&ensp; In folder v0.0.0, open 2D_TubeFlow.ipynb
+
+&ensp; run
 
 ## What inside?
 Beside of the work flow in this composited package, we developed two amazied algorithm(And more in house:) ).
