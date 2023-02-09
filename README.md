@@ -29,9 +29,9 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 
 
 ### Local convergence algorithm
-<p align="center">
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/ConvergingBenchmark.png" width="440" height="310">
-</p>
+
+<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/AdaptiveSmooth.png" width="390" height="270"><img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/ConvergingBenchmark.png" width="390" height="270">
+
 
 ### Weight assign algorithm 
 <p align="center">
