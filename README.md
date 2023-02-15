@@ -3,6 +3,8 @@ DDDA can solve the dynamics system automatically in process between data acquisi
 and take them back to innovation.
 
 ## How to use?
+Package requirement: numpy, scipy, pandas, matplotlib/seaborn, copy, mpl_toolkits, pycddlib 
+
 (The well packed code is coming soon.)
 
 **v0.0.0:**  2D Tube flow example
