@@ -2,15 +2,21 @@
 
 DDDA can extract the uniqueness and relative importance features in dimensionless number from one or more sets of experiment data. This package is basic on buckinhum pi theory but upgraded. 
 
-## In this README :point_down:
+## In this package :point_down:
 
 - [Features](#features)
 - [Usage](#usage)
   - [Initial setup](#initial-setup)
-  - [Creating releases](#creating-releases)
-- [Projects using this template](#projects-using-this-template)
+  - [Using DDDA](#using-ddda)
+- [Proved case using this package](#proved-case-using-this-package)
+- [About DDDA](#about-ddda)
 - [FAQ](#faq)
+- [Ongoing](#ongoing)
+- [Version update](#version-update)
 - [Contributing](#contributing)
+- [Reference](#reference)
+
+
 
 ## Features
 
@@ -32,7 +38,7 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 
 ### Initial setup
 
-1. [Download package in local]
+1. Download package to local
   
     Github
     
@@ -62,15 +68,22 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
     conda install matplotlib seaborn time
     ```
 
+### Using DDDA
 
-2. Run tube flow example
 
-&ensp; In folder v0.0.0, open 2D_TubeFlow.ipynb
+## Proved case using this package
 
-&ensp; run
 
-## What inside?
-Beside of the work flow in this composited package, we developed two amazied algorithm(And more in house:) ).
+Here is an real case list of some projects that has been proved in this package:
+
+- [2D Tubeflow](https://github.com/ExampleCase/Tubeflow2D)
+- [3D ](https://github.com/ExampleCase/???)
+- [4D ](https://github.com/ExampleCase/???)
+- [5D ](https://github.com/ExampleCase/???)
+
+☝️ *Download dataset above and import into package*
+
+## About DDDA
 
 ### Work flow
 <p align="center">
@@ -114,9 +127,21 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/ClusterTubeFlow.png" width="640" height="340">
 </p>
 
+## FAQ
+
+#### Why the independent value must in exponential form?
+Because...
+
+
 ## Ongoing
 Pressure test
 
 ## Version update
 **v0.0.1** The package was illustrate in 3d case, but it can succesefuly work in n-D case, also we simplified the time and memory comsumption.
 **v0.0.0** Prove the methodology in 2D case
+
+## Contributing
+
+
+## Reference
+
