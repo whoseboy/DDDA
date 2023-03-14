@@ -76,8 +76,8 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 
 Here is an real case list of some projects that has been proved in this package:
 
-- [2D Tubeflow](https://github.com/ExampleCase/Tubeflow2D)
-- [3D ](https://github.com/ExampleCase/???)
+- [2D Tubeflow](https://github.com/whoseboy/DDDA/tree/main/Examples/TubeFlow%202D)
+- [3D ](https://github.com/whoseboy/DDDA/tree/main/Examples/Selfdefined%203Dcase)
 - [4D ](https://github.com/ExampleCase/???)
 - [5D ](https://github.com/ExampleCase/???)
 
