@@ -1,18 +1,67 @@
 # DDDA (Data Driven Dimensional Analysis)
-DDDA can solve the dynamics system automatically in process between data acquisition to formula fitting. This package aiming for secure researcher from tedious work
-and take them back to innovation.
 
-## How to use?
-Package requirement: numpy, scipy, pandas, matplotlib/seaborn, copy, mpl_toolkits, pycddlib 
+DDDA can extract the uniqueness and relative importance features in dimensionless number from one or more sets of experiment data. This package is basic on buckinhum pi theory but upgraded. 
 
-(The well packed code is coming soon.)
+## In this README :point_down:
 
-**v0.0.0:**  2D Tube flow example
-1. Download
+- [Features](#features)
+- [Usage](#usage)
+  - [Initial setup](#initial-setup)
+  - [Creating releases](#creating-releases)
+- [Projects using this template](#projects-using-this-template)
+- [FAQ](#faq)
+- [Contributing](#contributing)
 
-&ensp; (https) git clone https://github.com/whoseboy/DDDA.git
+## Features
 
-&ensp; (ssh) git clone git@github.com:whoseboy/DDDA.git
+🚀 Fast (and light) All algorithms work within optimised data structure:
+  - 60,000 float paremeters consume 2GB memeroy and finish in 20 seconds(3.2GHz 6 cores x86 platform).
+  - No GPU needed.
+  - low storage space occupacion.
+
+🔐 Robust
+  - All way has one converge path
+
+📊 Great visualisation
+  - All the key parameter were illustrate by chart
+
+🏄 Easy to use
+
+
+## Usage
+
+### Initial setup
+
+1. [Download package in local]
+  
+    Github
+    
+    Shell: (https) & (ssh)
+    ```
+    git clone https://github.com/whoseboy/DDDA.git
+    git clone git@github.com:whoseboy/DDDA.git
+    
+    ```
+
+2. Create a Python 3.8 or newer virtual environment.
+
+    *Use Anaconda:*
+    ```
+    conda create -n my-package python=3.8
+    conda activate my-package
+    ```
+
+    *Then install compulsery package:*
+
+    ```
+    conda install numpy pandas scipy copy math numba sklearn pylab operator random
+    ```
+    *Opetional package:*
+
+    ```
+    conda install matplotlib seaborn time
+    ```
+
 
 2. Run tube flow example
 
@@ -65,5 +114,9 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/ClusterTubeFlow.png" width="640" height="340">
 </p>
 
+## Ongoing
+Pressure test
+
 ## Version update
-**v0.0.0** 
+**v0.0.1** The package was illustrate in 3d case, but it can succesefuly work in n-D case, also we simplified the time and memory comsumption.
+**v0.0.0** Prove the methodology in 2D case
