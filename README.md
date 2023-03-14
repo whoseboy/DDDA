@@ -10,6 +10,9 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
   - [Using DDDA](#using-ddda)
 - [Proved case using this package](#proved-case-using-this-package)
 - [About DDDA](#about-ddda)
+- [Example](#example)
+  - [Tubeflow 2D](#tubeflow)
+  - [Self defined dataset 3D](#self-defined-dataset)
 - [FAQ](#faq)
 - [Ongoing](#ongoing)
 - [Version update](#version-update)
@@ -73,11 +76,10 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 
 ## Proved case using this package
 
-
-Here is an real case list of some projects that has been proved in this package:
+Here is an real case list of some datasets that has been proved in this package:
 
 - [2D Tubeflow](https://github.com/whoseboy/DDDA/tree/main/Examples/TubeFlow%202D)
-- [3D ](https://github.com/whoseboy/DDDA/tree/main/Examples/Selfdefined%203Dcase)
+- [3D Self-defined case](https://github.com/whoseboy/DDDA/tree/main/Examples/Selfdefined%203Dcase)
 - [4D ](https://github.com/ExampleCase/???)
 - [5D ](https://github.com/ExampleCase/???)
 
@@ -102,7 +104,11 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/Voronoi.png" width="640" height="340">
 </p>
 
-## Example (2D TubeFlow)
+## Example 
+
+### Tubeflow
+2D dataset come out of real experiment
+
 <p align="center">
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/TubeData.png" width="640" height="340">
 </p>
@@ -126,6 +132,9 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 <p align="center">
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/ClusterTubeFlow.png" width="640" height="340">
 </p>
+
+### Self defined dataset
+3D dataset by self-defined function
 
 ## FAQ
 
