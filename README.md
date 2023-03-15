@@ -31,12 +31,13 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 🔐 Robust
   - All way has one converge path
 
-📊 Great visualisation
+📊 Good visualisation
   - All the key parameter were illustrate by chart
 
-🏄 Easy to use
-
-
+🏄 Researcher friendly
+  - All procedure processed in explicit form.
+  - Feasible uncertainty quantification, clear logic.
+  
 ## Usage
 
 ### Initial setup
@@ -107,7 +108,7 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 ## Example 
 
 ### Tubeflow
-2D dataset come out of real experiment
+This case is performed in v0.0.0, which is the initial edition specified in 2D. The dataset come out of real experiment.
 
 <p align="center">
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/TubeData.png" width="640" height="340">
@@ -134,7 +135,7 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 </p>
 
 ### Self defined dataset
-3D dataset by self-defined function
+This case is performed in v0.0.0, which is the initial edition specified in 3D. The dataset generate by self-defined function
 
 ## FAQ
 
@@ -143,10 +144,11 @@ Because...
 
 
 ## Ongoing
-Pressure test
+v0.0.3 - Universial edition in any dimension by a standalone file, Pressure test in dimension up to 5, Double regression in case of truncation & support domain
 
 ## Version update
 **v0.0.1** The package was illustrate in 3d case, but it can succesefuly work in n-D case, also we simplified the time and memory comsumption.
+
 **v0.0.0** Prove the methodology in 2D case
 
 ## Contributing
