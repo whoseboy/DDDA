@@ -409,7 +409,7 @@ class DDDA:
                 Ori_Check_y[j] = V_vertices_y[NoC]
                 Ori_Check_z[j] = V_vertices_z[NoC]
 
-                if V_coord_x[i][j] < XMin:
+                if V_coord_x[i][j] < XMin and np.std(V_coord_x[i]) > XGrid_ST * 0.6:
 
                     V_coord_x[i] = []
                     V_coord_y[i] = []
@@ -417,70 +417,41 @@ class DDDA:
                     VEmptyCount = VEmptyCount + 1
                     DeleteHint = 1
                     break
-                elif V_coord_x[i][j] > XMax:
+                elif V_coord_x[i][j] > XMax and np.std(V_coord_x[i]) > XGrid_ST * 0.6:
                     V_coord_x[i] = []
                     V_coord_y[i] = []
                     V_coord_z[i] = []
                     VEmptyCount = VEmptyCount + 1
                     DeleteHint = 1
                     break
-                elif V_coord_y[i][j] > YMax: 
+                elif V_coord_y[i][j] > YMax and np.std(V_coord_y[i]) > XGrid_ST * 0.6: 
                     V_coord_x[i] = []
                     V_coord_y[i] = []
                     V_coord_z[i] = []
                     VEmptyCount = VEmptyCount + 1
                     DeleteHint = 1
                     break
-                elif V_coord_y[i][j] < YMin:
+                elif V_coord_y[i][j] < YMin and np.std(V_coord_y[i]) > XGrid_ST * 0.6:
                     V_coord_x[i] = []
                     V_coord_y[i] = []
                     V_coord_z[i] = []
                     VEmptyCount = VEmptyCount + 1
                     DeleteHint = 1
                     break
-                elif V_coord_z[i][j] > ZMax: 
+                elif V_coord_z[i][j] > ZMax and np.std(V_coord_z[i]) > XGrid_ST * 0.6: 
                     V_coord_x[i] = []
                     V_coord_y[i] = []
                     V_coord_z[i] = []
                     VEmptyCount = VEmptyCount + 1
                     DeleteHint = 1
                     break
-                elif V_coord_z[i][j] < ZMin:
+                elif V_coord_z[i][j] < ZMin and np.std(V_coord_z[i]) > XGrid_ST * 0.6:
                     V_coord_x[i] = []
                     V_coord_y[i] = []
                     V_coord_z[i] = []
                     VEmptyCount = VEmptyCount + 1
                     DeleteHint = 1
                     break
-
-            Cell_STD_x[i] = np.std(V_coord_x[i])
-            Cell_STD_y[i] = np.std(V_coord_y[i])
-            Cell_STD_z[i] = np.std(V_coord_z[i])
-            # Prevent detection fail in small noisy
-            if Cell_STD_x[i] > XGrid_ST * 0.6:
-                V_coord_x[i] = []
-                V_coord_y[i] = []
-                V_coord_z[i] = []
-                Cell_STD_x[i] = 0
-                VEmptyCount = VEmptyCount + 1
-                DeleteHint = 1
-        #         print('XG')
-            elif Cell_STD_y[i] > YGrid_ST * 0.6:
-                V_coord_x[i] = []
-                V_coord_y[i] = []
-                V_coord_z[i] = []
-                Cell_STD_y[i] = 0
-                VEmptyCount = VEmptyCount + 1
-                DeleteHint = 1
-        #         print('YG')
-            elif Cell_STD_z[i] > ZGrid_ST * 0.6:
-                V_coord_x[i] = []
-                V_coord_y[i] = []
-                V_coord_z[i] = []
-                Cell_STD_z[i] = 0
-                VEmptyCount = VEmptyCount + 1
-                DeleteHint = 1
-        #         print('ZG')
 
             if DeleteHint == 0:                
                 V_coord_x[i] = np.append(V_coord_x[i], V_coord_x[i][0])
@@ -916,13 +887,13 @@ class DDDA:
 
         print('Ra: ', Coord_RegionA, '\n', 'Rb: ', Coord_RegionB)
 
-        print(EigneValue_MaxIndex_RegionA)
+#         print(EigneValue_MaxIndex_RegionA)
 
-        print(Eigenvectors_RegionA)
+#         print(Eigenvectors_RegionA)
 
-        print(EigneValue_MaxIndex_RegionB)
+#         print(EigneValue_MaxIndex_RegionB)
 
-        print(Eigenvectors_RegionB)
+#         print(Eigenvectors_RegionB)
 
 
 # In[ ]:
