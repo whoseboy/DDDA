@@ -23,20 +23,18 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 
 ## Features
 
-🚀 Fast (and light) All algorithms work within optimised data structure:
-  - 60,000 float paremeters consume 2GB memeroy and finish in 20 seconds(3.2GHz 6 cores x86 platform).
-  - No GPU needed.
-  - low storage space occupacion.
-
-🔐 Robust
-  - All way has one converge path
-
-📊 Good visualisation
-  - All the key parameter were illustrate by chart
+🔐 Robust 
+  - 强噪声抑制 —— 在数据预处理截断我们开发并在全局上使用了高阶的自适应收敛算法，至少在2阶精度上使每一数据点做到了最佳收敛。
 
 🏄 Researcher friendly
-  - All procedure processed in explicit form.
-  - Feasible uncertainty quantification, clear logic.
+  - 可以根据使用者所处环境内的噪声情况对结果的不确定性进行定量化。
+  - 我们尽最大程度减少了自定义参数。
+
+📊 Good visualisation
+  - 所有的数据都可以方便的以图表方式呈现。
+ 
+🚀 Fast (and light) All algorithms work within optimised data structure:
+  - 针对高维度大数据量计算进行了数据结构优化，随着数据维度(k)增加，主要代码的时间复杂度由O(n^k)降低为O(kN^(1-1/k)).
   
 ## Usage
 
