@@ -95,7 +95,8 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 
 #### 自适应收敛光滑
 
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/AdaptiveSmooth.png" width="390" height="270"><img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/ConvergingBenchmark.png" width="390" height="270">
+<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/0and1Moment.png" width="390" height="270">
+<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/Combined.png" width="390" height="270">
 
 
 ### 基于位置噪声的权重分配 
