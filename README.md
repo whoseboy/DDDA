@@ -104,7 +104,7 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 </p>
 
 ## 流程概览 
-
+我们以2维与3维算例为基础，按流程图的顺序向您展示我们代码中每一步骤的实现方法和巧思。
 ### Tubeflow
 This case is performed in v0.0.0, which is the initial edition specified in 2D. The dataset come out of real experiment.
 
@@ -132,25 +132,23 @@ This case is performed in v0.0.0, which is the initial edition specified in 2D. 
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/ClusterTubeFlow.png" width="640" height="340">
 </p>
 
-### Self defined dataset
-This case is performed in v0.0.0, which is the initial edition specified in 3D. The dataset generate by self-defined function
-
 ## FAQ
 
-#### Why the independent value must in exponential form?
-Because...
+### 输入的数据结构
 
 
-## Ongoing
-v0.0.3 - Universial edition in any dimension by a standalone file, Pressure test in dimension up to 5, Double regression in case of truncation & support domain
+## 正在开发中
+v2.0.0 - 对噪声的传播进行定量化。
 
-## Version update
-**v0.0.1** The package was illustrate in 3d case, but it can succesefuly work in n-D case, also we simplified the time and memory comsumption.
+## 重要版本更新
 
-**v0.0.0** Prove the methodology in 2D case
+**v1.4.0** 确定了参数之间的相关性，减少了用户自定义参数，提高易用性
+**v1.3.0** 重写了聚类算法，提升了聚类精度。提升了数据可视化程度
+**v1.2.0** 更新收敛算法，从单一的0阶距提升到了高阶距
+**v1.1.0** 数据结构优化
+**v1.0.0** 改写MATLAB代码到Python
+**v0.4.2** 完整的MATLAB下的三维代码实现
+**v0.3.1** 截止到分区的MATLAB下的三维代码实现
+**v0.2.0** 截止到分区的MATLAB下的二维代码实现
 
-## Contributing
-
-
-## Reference
 
