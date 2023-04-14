@@ -88,7 +88,7 @@ Here is an real case list of some datasets that has been proved in this package:
 
 ### Work flow
 <p align="center">
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/DDDA_FrameFlow.png" width="890" height="320">
+<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/DDDA_FrameFlow.png" >
 </p>
 This package can evaluate the rest of work automatially if the reasearcher get the data from experiment or simulation. The datasets could aquire from varies source, and of course in varies noise distribution and confidence interval.
 
