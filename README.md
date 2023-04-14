@@ -2,12 +2,12 @@
 
 DDDA can extract the uniqueness and relative importance features in dimensionless number from one or more sets of experiment data. This package is basic on buckinhum pi theory but upgraded. 
 
-## In this package :point_down:
+## 目录 :point_down:
 
-- [Features](#features)
-- [Usage](#usage)
-  - [Initial setup](#initial-setup)
-  - [Using DDDA](#using-ddda)
+- [特点](#特点)
+- [入门指南](#入门指南)
+  - [安装DDDA](#安装DDDA)
+  - [如何使用DDDA代码包](#如何使用DDDA代码包)
 - [Proved case using this package](#proved-case-using-this-package)
 - [About DDDA](#about-ddda)
 - [Example](#example)
@@ -21,7 +21,7 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 
 
 
-## Features
+## 特点
 
 🔐 Robust 
   - 强噪声抑制 —— 在数据预处理截断我们开发并在全局上使用了高阶的自适应收敛算法，至少在2阶精度上使每一数据点做到了最佳收敛。
@@ -36,9 +36,9 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 🚀 Fast (and light) All algorithms work within optimised data structure:
   - 针对高维度大数据量计算进行了数据结构优化，随着数据维度(k)增加，主要代码的时间复杂度由O(n^k)降低为O(kN^(1-1/k)).
   
-## Usage
+## 入门指南
 
-### Initial setup
+### 安装DDDA
 
 1. Download package to local
   
@@ -70,7 +70,7 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
     conda install matplotlib seaborn time
     ```
 
-### Using DDDA
+### 如何使用DDDA代码包
 
 
 ## Proved case using this package
