@@ -1,4 +1,4 @@
-# DDDA (Data Driven Dimensional Analysis)
+# DDDA (Data Driven Dimensional Analysis) v1.4.1
 
 DDDA can extract the uniqueness and relative importance features in dimensionless number from one or more sets of experiment data. This package is basic on buckinhum pi theory but upgraded. 
 
@@ -6,10 +6,10 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 
 - [特点](#特点)
 - [入门指南](#入门指南)
-  - [安装DDDA](#安装DDDA)
-  - [如何使用DDDA代码包](#如何使用DDDA代码包)
-- [Proved case using this package](#proved-case-using-this-package)
-- [About DDDA](#about-ddda)
+  - [安装DDDA](#安装)
+  - [如何使用DDDA代码包](#如何使用代码包)
+- [DDDA的示例](#示例)
+- [关于本程序包](#关于本程序包)
 - [Example](#example)
   - [Tubeflow 2D](#tubeflow)
   - [Self defined dataset 3D](#self-defined-dataset)
@@ -38,9 +38,9 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
   
 ## 入门指南
 
-### 安装DDDA
+### 安装
 
-1. Download package to local
+1. 下载代码包至本地
   
     Github
     
@@ -51,40 +51,38 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
     
     ```
 
-2. Create a Python 3.8 or newer virtual environment.
+2. 创建 Python 3.8 或以上更新环境.
 
-    *Use Anaconda:*
+    *使用 Anaconda:*
     ```
     conda create -n my-package python=3.8
     conda activate my-package
     ```
 
-    *Then install compulsery package:*
+    *需要安装的代码包:*
 
     ```
     conda install numpy pandas scipy copy math numba sklearn pylab operator random
     ```
-    *Opetional package:*
+    *可以选装的代码包 —— 用于可视化和计时:*
 
     ```
     conda install matplotlib seaborn time
     ```
 
-### 如何使用DDDA代码包
+### 如何使用代码包
 
 
-## Proved case using this package
+## 示例
 
-Here is an real case list of some datasets that has been proved in this package:
+我们在jupyter notebook中提供了简洁易读的测试算例:
 
 - [2D Tubeflow](https://github.com/whoseboy/DDDA/tree/main/Examples/TubeFlow%202D)
 - [3D Self-defined case](https://github.com/whoseboy/DDDA/tree/main/Examples/Selfdefined%203Dcase)
-- [4D ](https://github.com/ExampleCase/???)
-- [5D ](https://github.com/ExampleCase/???)
 
-☝️ *Download dataset above and import into package*
+☝️ *上述算例的详细信息可以看链接内文件夹中的readme文档*
 
-## About DDDA
+## 关于本程序包
 
 ### Work flow
 <p align="center">
