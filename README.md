@@ -10,7 +10,9 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
   - [如何使用DDDA代码包](#如何使用代码包)
 - [DDDA的示例](#示例)
 - [关于本程序包](#关于本程序包)
-- [Example](#example)
+  - [工作流程图](#工作流程图)
+  - [部分算法解释](#部分算法解释)
+- [示例](#示例)
   - [Tubeflow 2D](#tubeflow)
   - [Self defined dataset 3D](#self-defined-dataset)
 - [FAQ](#faq)
@@ -84,24 +86,26 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 
 ## 关于本程序包
 
-### Work flow
+### 工作流程图
 <p align="center">
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/DDDA_FrameFlow.png" >
 </p>
 This package can evaluate the rest of work automatially if the reasearcher get the data from experiment or simulation. The datasets could aquire from varies source, and of course in varies noise distribution and confidence interval.
 
 
-### Local convergence algorithm
+### 部分算法解释
+
+#### 自适应收敛光滑
 
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/AdaptiveSmooth.png" width="390" height="270"><img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/ConvergingBenchmark.png" width="390" height="270">
 
 
-### Weight assign algorithm 
+### 基于位置噪声的权重分配 
 <p align="center">
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/Voronoi.png" width="640" height="340">
 </p>
 
-## Example 
+## 示例 
 
 ### Tubeflow
 This case is performed in v0.0.0, which is the initial edition specified in 2D. The dataset come out of real experiment.
