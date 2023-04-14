@@ -12,9 +12,7 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 - [关于本程序包](#关于本程序包)
   - [工作流程图](#工作流程图)
   - [部分算法解释](#部分算法解释)
-- [示例](#示例)
-  - [Tubeflow 2D](#tubeflow)
-  - [Self defined dataset 3D](#self-defined-dataset)
+- [流程概览](#流程概览)
 - [FAQ](#faq)
 - [Ongoing](#ongoing)
 - [Version update](#version-update)
@@ -105,7 +103,7 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/Voronoi.png" width="640" height="340">
 </p>
 
-## 示例 
+## 流程概览 
 
 ### Tubeflow
 This case is performed in v0.0.0, which is the initial edition specified in 2D. The dataset come out of real experiment.
