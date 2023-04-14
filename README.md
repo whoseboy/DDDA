@@ -95,13 +95,17 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 
 #### 自适应收敛光滑
 
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/0and1Moment.png" width="390" height="270">
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/Combined.png" width="390" height="270">
+<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/Converge2.png" >
+<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/1n2Converge.png" >
+<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/DataDense.png" >
 
+<p align="center">
+<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/AdaptiveSmooth.png" >
+</p>
 
 ### 基于位置噪声的权重分配 
 <p align="center">
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/Voronoi.png" width="640" height="340">
+<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/Voronoi.png">
 </p>
 
 ## 流程概览 
@@ -129,9 +133,6 @@ This case is performed in v0.0.0, which is the initial edition specified in 2D. 
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/EigenVector.png" width="640" height="340">
 </p>
 
-<p align="center">
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/ClusterTubeFlow.png" width="640" height="340">
-</p>
 
 ## FAQ
 
