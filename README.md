@@ -12,7 +12,7 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 - [关于本程序包](#关于本程序包)
   - [工作流程图](#工作流程图)
   - [部分算法解释](#部分算法解释)
-- [流程概览](#流程概览)
+- [DDDA工作流程概览](#流程概览)
 - [FAQ](#faq)
 - [Ongoing](#ongoing)
 - [Version update](#version-update)
@@ -110,7 +110,8 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 <p align="center">
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/AdaptiveSmooth.png" >
 </p>
-上图为2维例子中，
+上图为2维例子中，我们随机抽取6个差值点来展示算法结果。其中图例为当前位置对中心差值点的影响大小，可看做一个高斯分布。
+可见，不同位置的差值点会随着其周围数值点（蓝色）的数量，分布情况来调整不同的计算域。
 
 ### 基于位置噪声的权重分配 
 <p align="center">
