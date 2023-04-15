@@ -114,6 +114,7 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 可见，不同位置的差值点会随着其周围数值点（蓝色）的数量，分布情况来调整不同的计算域。
 
 ### 基于位置噪声的权重分配 
+我们根据数据点的位置噪声，使用voronoi图的方式为每一数据点分配了权重。并在n维度数据点的voronoi cell边缘切割上提供了创新可靠的算法。
 <p align="center">
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/Voronoi.png">
 </p>
