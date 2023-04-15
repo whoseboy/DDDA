@@ -102,12 +102,12 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 这种交叉的趋势提供了最优收敛点，如右图所见，我们将两组数据组合后，选择了最小的计算域为此数据点的最佳收敛位置。
 
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/1n2Converge.png" >
-我们可以使用本算法对数据点进行加密操作，上图中，左侧为原数据点，右侧为加密后的数据点。
-
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/DataDense.png" >
 上图为加入噪声后整场的收敛后数值的密度分布图。
 左图为0阶距的整场密度分布，其标准值为1，可以看做光滑后数据与原数据的差异大小。右图为0阶距的密度分布，其标准值为0，代表了数据分布的混乱程度。
 可见加入噪声后，本算法的自适应属性可以将每一个数据点赋予不同的收敛参数，以获得最佳效果。
+
+<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/DataDense.png" >
+我们可以使用本算法对数据点进行加密操作，上图中，左侧为原数据点，右侧为加密后的数据点。
 
 <p align="center">
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/AdaptiveSmooth.png" >
