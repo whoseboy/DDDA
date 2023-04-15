@@ -94,14 +94,23 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 ### 部分算法解释
 
 #### 自适应收敛光滑
-
+基于径向基函数的原理，为了抑制数据的噪声，我们将每一个数据点都做了局部最佳优化。
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/Converge2.png" >
+上图是我们示例数据中某一数据点的收敛判定。
+图中，x轴代表光滑长度，其随x轴的增加而增大，y轴为抽象出来的收敛参数以0为判定基准。
+左图中，红色的点为以欧式距离为标准，运用在本算法中得到的0阶距，其随光滑长度的增大而收敛。绿色点为1阶距的结果，其随光滑长度的增加而愈加远离判定基准。
+这种交叉的趋势提供了最优收敛点，如右图所见，我们将两组数据组合后，选择了最小的计算域为此数据点的最佳收敛位置。
+
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/1n2Converge.png" >
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/DataDense.png" >
+上图为加入噪声后整场的收敛后数值的密度分布图。
+左图为0阶距的整场密度分布，其标准值为1，可以看做光滑后数据与原数据的差异大小。右图为0阶距的密度分布，其标准值为0，代表了数据分布的混乱程度。
+可见加入噪声后，本算法的自适应属性可以将每一个数据点赋予不同的收敛参数，以获得最佳效果。
 
 <p align="center">
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/AdaptiveSmooth.png" >
 </p>
+上图为2维例子中，
 
 ### 基于位置噪声的权重分配 
 <p align="center">
