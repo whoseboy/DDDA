@@ -14,12 +14,8 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
   - [部分算法解释](#部分算法解释)
 - [DDDA工作流程概览](#流程概览)
 - [FAQ](#faq)
-- [Ongoing](#ongoing)
-- [Version update](#version-update)
-- [Contributing](#contributing)
-- [Reference](#reference)
-
-
+- [正在开发中](#ongoing)
+- [重要版本更新](#version-update)
 
 ## 特点
 
