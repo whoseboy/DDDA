@@ -5,19 +5,81 @@
 
 
 class DDDA:
-    def __init__(self, DataX, DataY, DataZ, Dataf, InterLength, \
-                 InterShift, r0, rn, Claster):
-        self.DataX = DataX
-        self.DataY = DataY
-        self.DataZ = DataZ
-        self.Dataf = Dataf
-        self.InterLength = InterLength
-        self.r0 = r0
-        self.rn = rn
+    def __init__(self, *args, **kwargs):
+        if len(args) == 0:
+            print('No data')
+        else:
+            try: 
+                self.Dataf = args[0]
+            except:
+                print('0')
+            else:
+                self.Dataf = args[0]
 
-        self.InterShift = InterShift
-        self.Claster = Claster
-    
+            try: 
+                self.DataX = args[1]
+            except:
+                print('1')
+            else:
+                self.DataX = args[1]
+
+            try: 
+                self.DataY = args[2]
+            except:
+                print('2')
+            else:
+                self.DataY = args[2]
+
+            try: 
+                self.DataZ = args[3]
+            except:
+                print('3')
+            else:
+                self.DataZ = args[3]    
+# Dict
+            try: 
+                self.InterLength = kwargs['InterLength']
+            except:
+                print('default interLength')
+                self.InterLength = round(len(args[0]) ** (1 / (len(args) - 1)))
+            else:
+                self.InterLength = round(\
+                                         kwargs['InterLength'] * \
+                                             len(args[0]) ** (1 / (len(args) - 1)))
+
+            try: 
+                self.r0 = kwargs['r0']
+            except:
+                print('default r0 is 3')
+                self.r0 = 3
+            else:
+                self.r0 = kwargs['r0']
+
+            try: 
+                self.rn = kwargs['rn']
+            except:
+                print('default rn is 10')
+                self.rn = 10
+            else:
+                self.rn = kwargs['rn']
+
+            try: 
+                self.Claster = kwargs['Claster']
+            except:
+                print('default Claster is 2')
+                self.Claster = 2
+            else:
+                self.Claster = kwargs['Claster']       
+
+            try: 
+                self.InterShift = kwargs['InterShift']
+            except:
+                print('default InterShift')
+                self.InterShift = (max(args[1]) - min(args[1])) * 0.1
+            else:
+                self.InterShift = kwargs['InterShift'] * \
+                (max(args[1]) - min(args[1]))        
+
     def DDDARun(self):
         import numpy as np
         import copy
