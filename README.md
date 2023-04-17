@@ -1,4 +1,4 @@
-# DDDA (Data Driven Dimensional Analysis) v1.4.1
+# DDDA (Data Driven Dimensional Analysis) v1.5.1
 
 DDDA can extract the uniqueness and relative importance features in dimensionless number from one or more sets of experiment data. This package is basic on buckinhum pi theory but upgraded. 
 
