@@ -70,7 +70,10 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 
 
 ## 示例
-三维且默认参数的示例， 其中DataF为数据，DataX, DataY, DataZ 为三维坐标点集
+### 如何使用
+这里我们提供了DDDA()函数负责传输数据，参数。DDDARun()函数负责开始运算。
+
+    *三维且默认参数的示例， 其中DataF为数据，DataX, DataY, DataZ 为三维坐标点集*
 
     ```
     from packageTest import DDDA
@@ -78,8 +81,10 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
     my_work.DDDARun()
     ```
     
-我们还提供了5个参数， 其中InterLength代表差值点与数据点的比例关系（例如1.1为加密，0.9为稀疏），InterShift为边界处理算法的参数[0-1]默认为0.1，
-r0为自适应光滑算法计算域的尺寸参数，rn为自适应光滑算法计算域的尺寸参数，增大rn会带来更高的精度但计算速度会显著降低。Claster为聚类的分类数量。
+我们提供了5个可以自定义的参数
+
+    *其中InterLength代表差值点与数据点的比例关系（例如1.1为加密，0.9为稀疏），InterShift为边界处理算法的参数[0-1]默认为0.1，
+    r0为自适应光滑算法计算域的尺寸参数，rn为自适应光滑算法计算域的尺寸参数，增大rn会带来更高的精度但计算速度会显著降低。Claster为聚类的分类数量。*
 
     ```
     from packageTest import DDDA
@@ -88,6 +93,7 @@ r0为自适应光滑算法计算域的尺寸参数，rn为自适应光滑算法�
     my_work.DDDARun()
     ```
     
+### 算例    
 我们在jupyter notebook中提供了简洁易读的测试算例:
 
 - [2D Tubeflow](https://github.com/whoseboy/DDDA/tree/main/Examples/TubeFlow%202D)
