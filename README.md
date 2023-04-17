@@ -70,7 +70,22 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 
 
 ## 示例
-
+三维且默认参数的示例， 其中DataF为数据，DataX, DataY, DataZ 为三维坐标点集
+    ```
+    from packageTest import DDDA
+    my_work = DDDA(DataF, DataX, DataY, DataZ)
+    my_work.DDDARun()
+    ```
+    
+我们还提供了5个参数， 其中InterLength代表差值点与数据点的比例关系（例如1.1为加密，0.9为稀疏），InterShift为边界处理算法的参数[0-1]默认为0.1，
+r0为自适应光滑算法计算域的尺寸参数，rn为自适应光滑算法计算域的尺寸参数，增大rn会带来更高的精度但计算速度会显著降低。Claster为聚类的分类数量。
+    ```
+    from packageTest import DDDA
+    my_work = DDDA(DataF, DataX, DataY, DataZ, InterLength = 1, \
+               InterShift = 0.1, r0 = 3, rn = 10, Claster = 2)
+    my_work.DDDARun()
+    ```
+    
 我们在jupyter notebook中提供了简洁易读的测试算例:
 
 - [2D Tubeflow](https://github.com/whoseboy/DDDA/tree/main/Examples/TubeFlow%202D)
@@ -152,6 +167,8 @@ This case is performed in v0.0.0, which is the initial edition specified in 2D. 
 v2.0.0 - 对噪声的传播进行定量化。
 
 ## 重要版本更新
+
+**v1.5.0** 现在可以使用任意数量的数组参数了。除此之外还优化了用户自定义系数。
 
 **v1.4.0** 确定了参数之间的相关性，减少了用户自定义参数，提高易用性
 
