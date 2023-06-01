@@ -1,6 +1,6 @@
 clear
 %% cutting parameter space and obtaining unique dimensionless group.
-% containing three steps:1 loading interpolation data; 2 cutting space
+% containing three steps:1 loading differnetial data; 2 cutting space
 % using function
 % [D,F,U,D_d]=cluster_myfcm(x,y,z,f,pFpX,pFpY,pFpZ,M,sub_p,n); 3 obtaining
 % unique dimensionless group using function D=new_var(D,n,F)
