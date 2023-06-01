@@ -5,7 +5,7 @@ clear
 % [D,F,U,D_d]=cluster_myfcm(x,y,z,f,pFpX,pFpY,pFpZ,M,sub_p,n); 3 obtaining
 % unique dimensionless group using function D=new_var(D,n,F)
 
-%% loading interpolation data
+%% loading differential data
 % points coordinate
 load Arrayx.mat
 load Arrayy.mat
