@@ -5,10 +5,10 @@
 
 %% Note!!
 
-% 1 Three method for the differential calculation is utilized, smooth differential calculation; 
-% liner interpolation + formular differential calcualtion; ML + formular differential calculation
+% 1. Three methods for the gradient calculation are utilized, which are, smoothed gradient calculation; 
+% liner interpolation + Finite Difference gradient calcualtion; interpolation with ML + fFinite Difference gradient calculation
 
 
-% 2 the result is gotten under different noise grades
+% 2. Different noise grades are considered;
 
-% 3 the result is gotten under different clustering parameters
+% 3. Different clustering parameters are applied and discussed.
