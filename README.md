@@ -1,6 +1,9 @@
-# DDDA (Data Driven Dimensional Analysis) v1.5.1
+# DDDA (Data Driven Dimensional Analysis) v1.6.1
+# 数据驱动量纲分析 v1.6.1
 
-DDDA can extract the uniqueness and relative importance features in dimensionless number from one or more sets of experiment data. This package is basic on buckinhum pi theory but upgraded. 
+DDDA(Data Driven Dimensional Analysis), when applied on a set of real world data, can extract the unique and dominating dimensionless number from the data based on buckinhum pi theory. It will help human or robot scientists to compress the data and convert the hidden knowledge into a simple and clear empirical law of one or two (novel) combined dimensionless number. The whole process is automatic and involves very few artifical parameters.
+
+DDDA-数据驱动量纲分析，是一套用于从数据中自动提取主控（新）无量纲数的开源代码。代码可以在几乎不需要人工参与的条件下，从高维（多个参数或无量纲数控制）的数据集中，自动找到主导的（组合）无量纲数（供您命名），并按照无量纲数的形式分割整个数据区域，并在每个区域给出最优的经验公式。在常见力学问题中，方法可以将高至9维的数据集压缩为分段的一至二维显式函数表达，从而为人类和机器科学家提供探索规律的基本工具。
 
 ## 目录 :point_down:
 
@@ -34,7 +37,27 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
   
 ## 入门指南
 
+### 使用选项
+
+1. 直接使用Matlab代码，与论文示例一致，相关代码和示例见：
+https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Matlab_DDDA%20for%20the%203D%20case
+https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Matlab_DDDA%20for%20the%202D%20case%20(pressure%20drops%20in%20pipe%20flows)
+Matlab版本可以作为快速学习之用，当前仅有2D和3D版本；
+
+2. 使用JupyterNote Book快速试用并学习DDDA方法：
+https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Case_2D
+https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Case_3D_1
+https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Case_3D_2
+iPython版本可以作为快速学习之用，当前仅有2D和3D版本；
+
+3. 使用标准Python包，用于高效运行DDDA算法：
+https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/DDDA
+可以使用conda和pip两种方式安装，具体安装方式如下。
+
+
 ### 安装
+
+#### 使用conda
 
 1. 下载代码包至本地
   
@@ -65,6 +88,18 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
     ```
     conda install matplotlib seaborn time
     ```
+
+#### 使用pip
+
+    *安装辅助包，涉及的包包含在requirments.txt中*
+    （修改中）
+    
+    *安装DDDA：*
+    ```
+    pip install DDDA
+    ```
+
+
 
 ### 如何使用代码包
 
@@ -97,7 +132,11 @@ DDDA can extract the uniqueness and relative importance features in dimensionles
 我们在jupyter notebook中提供了简洁易读的测试算例:
 
 - [2D Tubeflow](https://github.com/whoseboy/DDDA/tree/main/Examples/TubeFlow%202D)
-- [3D Self-defined case](https://github.com/whoseboy/DDDA/tree/main/Examples/Selfdefined%203Dcase)
+- [3D Random Designed Case](https://github.com/whoseboy/DDDA/tree/main/Examples/Selfdefined%203Dcase)
+
+测试算例的Matlab版本:
+- [2D Tubeflow](https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Matlab_DDDA%20for%20the%203D%20case）
+- [3D Random Designed Case](https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Matlab_DDDA%20for%20the%202D%20case%20(pressure%20drops%20in%20pipe%20flows))
 
 ☝️ *上述算例的详细信息可以看链接内文件夹中的readme文档*
 
@@ -175,6 +214,8 @@ This case is performed in v0.0.0, which is the initial edition specified in 2D. 
 v2.0.0 - 对噪声的传播进行定量化。
 
 ## 重要版本更新
+
+**v1.6.0** 补充了Matlab代码，并更新了使用和安装说明。
 
 **v1.5.0** 现在可以使用任意数量的数组参数了。除此之外还优化了用户自定义系数。
 
