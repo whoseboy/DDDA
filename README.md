@@ -181,28 +181,6 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 
 ## 流程概览 
 我们以2维与3维算例为基础，按流程图的顺序向您展示我们代码中每一步骤的实现方法和巧思。
-### Tubeflow
-This case is performed in v0.0.0, which is the initial edition specified in 2D. The dataset come out of real experiment.
-
-<p align="center">
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/TubeData.png" width="640" height="340">
-</p>
-
-<p align="center">
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/TubePosition.png" width="640" height="340">
-</p>
-
-<p align="center">
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/SmoothInter.png" width="640" height="340">
-</p>
-
-<p align="center">
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/PartialD.png" width="640" height="340">
-</p>
-
-<p align="center">
-<img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/EigenVector.png" width="640" height="340">
-</p>
 
 
 ## FAQ
