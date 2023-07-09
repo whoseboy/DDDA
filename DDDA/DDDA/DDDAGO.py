@@ -99,8 +99,16 @@ class DDDA:
         DataY = self.DataY
         DataZ = self.DataZ
         DataF = self.Dataf
+        
+        DataX = DataX.reshape((np.size(DataX), 1))  
+        DataY = DataY.reshape((np.size(DataY), 1))
+        DataZ = DataZ.reshape((np.size(DataZ), 1))        
+        DataF = DataF.reshape((np.size(DataF), 1))
+        
         DataLength = int(len(DataX) ** (1/3))
         NoPin1D = DataLength
+
+
         
         NoPs = int(NoPin1D ** 2)
         
@@ -665,16 +673,16 @@ class DDDA:
                                             aGauNP[0], h[0])
 
 
-        # Distance of 0th moment to its target value 1
-        W0th_abs = np.reshape(abs(W_Gau_0th_vari[:, :, 10000] - 1), Trunc_rn * hn)
-        # 1st moment
-        W1st = np.reshape(W_Gau_1st_vari[:, :, 10000], Trunc_rn * hn)
+#         # Distance of 0th moment to its target value 1
+#         W0th_abs = np.reshape(abs(W_Gau_0th_vari[:, :, 10000] - 1), Trunc_rn * hn)
+#         # 1st moment
+#         W1st = np.reshape(W_Gau_1st_vari[:, :, 10000], Trunc_rn * hn)
 
-        orderr = np.linspace(0, Trunc_rn * hn - 1, Trunc_rn * hn)
+#         orderr = np.linspace(0, Trunc_rn * hn - 1, Trunc_rn * hn)
 
 
-        # The distance between 2 moment to target value(0 and 1)
-        Choice = W0th_abs + W1st
+#         # The distance between 2 moment to target value(0 and 1)
+#         Choice = W0th_abs + W1st
 
         # Chioce the 0th and 1st moment parameter that are the most close to the 
         # target value
@@ -710,9 +718,9 @@ class DDDA:
             MCT_index_column = int(MCT_0_index % 10)
 
             # Randomly pick a point and see its PDF for a slance check.
-            W_Gau_0th_fix[j] = W_Gau_0th_vari[MCT_index_row, MCT_index_column, 1000]
-            W_Gau_1st_fix[j] = W_Gau_1st_vari[MCT_index_row, MCT_index_column, 1000]
-            Trunc_r_fix[j] = Trunc_r_range[MCT_index_row]
+#             W_Gau_0th_fix[j] = W_Gau_0th_vari[MCT_index_row, MCT_index_column, 1000]
+#             W_Gau_1st_fix[j] = W_Gau_1st_vari[MCT_index_row, MCT_index_column, 1000]
+#             Trunc_r_fix[j] = Trunc_r_range[MCT_index_row]
 
             # Two key paremeters, will use in kernel derivateve
             Distance_r_fix_index[j] = MCT_index_row
