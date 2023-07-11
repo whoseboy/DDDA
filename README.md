@@ -185,6 +185,11 @@ This package can evaluate the rest of work automatially if the reasearcher get t
 
 ## FAQ
 
+## 问题和支持
+使用微信的朋友可以关注我们的微信公众号（智能科力实验室），将会有不定期的使用经验推送，结识一起使用的好友，遇到问题也可以发送到公众号，我们在后台看到后会回复。
+![扫码_搜索联合传播样式-白色版](https://github.com/whoseboy/DDDA/assets/34500062/26f30452-ea24-4bc9-b754-0efa98d7a193)
+
+
 ### 输入的数据结构
 
 
