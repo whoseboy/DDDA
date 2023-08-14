@@ -60,9 +60,7 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
 ### 安装
 
 #### 使用conda  
-    ```
-    使用 Anaconda Prompt:  
-    ```
+ 
 1. 下载代码包至本地  
 
     Shell: (https) & (ssh)  
