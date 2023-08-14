@@ -1,7 +1,7 @@
 # DDDA (Data Driven Dimensional Analysis) v1.6.1
 # 数据驱动量纲分析 v1.6.1
 
-DDDA(Data Driven Dimensional Analysis), when applied on a set of real world data, can extract the unique and dominating dimensionless number from the data based on buckinhum pi theory. It will help human or robot scientists to compress the data and convert the hidden knowledge into a simple and clear empirical law of one or two (novel) combined dimensionless number. The whole process is automatic and involves very few artifical parameters.
+DDDA(Data Driven Dimensional Analysis), when applied to a set of real-world data, can extract the unique and dominating dimensionless number from the data based on Buckingham Pi Theorem. It will help human or robot scientists to compress the data and convert the hidden knowledge into a simple and clear empirical law of one or two (novel) combined dimensionless numbers. The whole process is automatic and involves very few artificial parameters.
 
 DDDA-数据驱动量纲分析，是一套用于从数据中自动提取主控（新）无量纲数的开源代码。代码可以在几乎不需要人工参与的条件下，从高维（多个参数或无量纲数控制）的数据集中，自动找到主导的（组合）无量纲数（供您命名），并按照无量纲数的形式分割整个数据区域，并在每个区域给出最优的经验公式。在常见力学问题中，方法可以将高至9维的数据集压缩为分段的一至二维显式函数表达，从而为人类和机器科学家提供探索规律的基本工具。
 
@@ -42,6 +42,7 @@ DDDA-数据驱动量纲分析，是一套用于从数据中自动提取主控（
 1. 直接使用Matlab代码，与论文示例一致，相关代码和示例见：
 https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Matlab_DDDA%20for%20the%203D%20case
 https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Matlab_DDDA%20for%20the%202D%20case%20(pressure%20drops%20in%20pipe%20flows)
+
 Matlab版本可以作为快速学习之用，当前仅有2D和3D版本；
 
 2. 使用JupyterNote Book快速试用并学习DDDA方法：
@@ -146,7 +147,7 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
 <p align="center">
 <img src="https://github.com/whoseboy/DDDA/blob/main/docs/figures/TubeFlow2D/DDDA_FrameFlow.png" >
 </p>
-This package can evaluate the rest of work automatially if the reasearcher get the data from experiment or simulation. The datasets could aquire from varies source, and of course in varies noise distribution and confidence interval.
+This package can evaluate the rest of work automatically if the reasearcher gets the data from experiment or simulation. The datasets could be acquired from varies sources, and of course in varies noise distribution and confidence interval.
 
 
 ### 部分算法解释
