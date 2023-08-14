@@ -63,18 +63,17 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
 
 1. 下载代码包至本地  
    （需下载Git https://git-scm.com/）  
-    git clone  
-    Shell: (https) & (ssh)
+    git clone
+
+    Shell: (https) & (ssh)  
    
     Shell: https  
     ```
     https://github.com/whoseboy/DDDA.git
-  
     ```
     Shell:  ssh  
     ```
     git@github.com:whoseboy/DDDA.git
-  
     ```
 
    
