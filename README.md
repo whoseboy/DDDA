@@ -59,7 +59,9 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
 
 ### 安装
 
-#### 使用conda
+#### 使用conda  
+
+    *使用 Anaconda Prompt:*  
 
 1. 下载代码包至本地  
 
@@ -77,7 +79,6 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
    
 2. 创建 Python 3.8 或以上更新环境.
 
-    *使用 Anaconda Prompt:*
     ```
     conda create -n your_env_name  python=3.8
     conda activate your_env_name 
@@ -93,10 +94,8 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
     ```
     conda install matplotlib seaborn time
     ```
-
-#### 使用pip  
+3. 安装DDDA  
     
-    *安装DDDA：*  
     ```
     pip install DDDA
     ```
