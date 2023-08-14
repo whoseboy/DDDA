@@ -78,10 +78,10 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
    
 3. 创建 Python 3.8 或以上更新环境.
 
-    *使用 Anaconda:*
+    *使用 Anaconda Prompt:*
     ```
-    conda create -n my-package python=3.8
-    conda activate my-package
+    conda create -n your_env_name  python=3.8
+    conda activate your_env_name 
     ```
 
     *需要安装的代码包:*
