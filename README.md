@@ -61,18 +61,24 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
 
 #### 使用conda
 
-1. 下载代码包至本地（需下载Git https://git-scm.com/）
-  
-    Github
-    
+1. 下载代码包至本地  
+   （需下载Git https://git-scm.com/）  
+    git clone  
     Shell: (https) & (ssh)
+   
+    Shell: https  
     ```
-    git clone https://github.com/whoseboy/DDDA.git
-    git clone git@github.com:whoseboy/DDDA.git
-    
+    https://github.com/whoseboy/DDDA.git
+  
+    ```
+    Shell:  ssh  
+    ```
+    git@github.com:whoseboy/DDDA.git
+  
     ```
 
-2. 创建 Python 3.8 或以上更新环境.
+   
+3. 创建 Python 3.8 或以上更新环境.
 
     *使用 Anaconda:*
     ```
