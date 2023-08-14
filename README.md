@@ -61,7 +61,7 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
 
 #### 使用conda
 
-1. 下载代码包至本地
+1. 下载代码包至本地（需下载Git https://git-scm.com/）
   
     Github
     
