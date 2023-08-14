@@ -52,7 +52,7 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/E
 
 
 3. 使用标准Python包，用于高效运行DDDA算法：
-https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/DDDA
+https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/DDDA  
 可以使用conda和pip两种方式安装，具体安装方式如下。
 
 
