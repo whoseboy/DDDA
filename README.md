@@ -45,7 +45,7 @@ DDDA-数据驱动量纲分析，是一套用于从数据中自动提取主控（
 
 2. 使用JupyterNote Book快速试用并学习DDDA方法(iPython版本可以作为快速学习之用，当前仅有2D和3D版本)：
 2D case: 
-https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Case_2D
+https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Case_2D  
 3D case: 
 https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Case_3D_1
 https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/Example/Case_3D_2
