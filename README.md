@@ -54,7 +54,7 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/E
 3. **使用标准Python包，用于高效运行DDDA算法：  
    Use standard Python packages for efficiently running the DDDA algorithm:**
 https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/DDDA  
-可以使用conda和pip两种方式安装，具体安装方式如下。
+具体安装方式如下。
 
 
 ### 安装
@@ -75,7 +75,7 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
     ```
 
    
-3. 创建 Python 3.8 或以上更新环境.
+2. 创建 Python 3.8 或以上更新环境.
 
     *使用 Anaconda Prompt:*
     ```
@@ -94,15 +94,13 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
     conda install matplotlib seaborn time
     ```
 
-#### 使用pip
-
-    *安装辅助包，涉及的包包含在requirments.txt中*
-    （修改中）
+#### 使用pip  
     
-    *安装DDDA：*
+    *安装DDDA：*  
     ```
     pip install DDDA
     ```
+    
 
 
 
