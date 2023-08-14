@@ -3,7 +3,7 @@
 
 DDDA(Data Driven Dimensional Analysis), when applied to a set of real-world data, can extract the unique and dominating dimensionless number from the data based on Buckingham Pi Theorem. It will help human or robot scientists to compress the data and convert the hidden knowledge into a simple and clear empirical law of one or two (novel) combined dimensionless numbers. The whole process is automatic and involves very few artificial parameters.
 
-DDDA-数据驱动量纲分析，是一套用于从数据中自动提取主控（新）无量纲数的开源代码。代码可以在几乎不需要人工参与的条件下，从高维（多个参数或无量纲数控制）的数据集中，自动找到主导的（组合）无量纲数（供您命名），并按照无量纲数的形式分割整个数据区域，并在每个区域给出最优的经验公式。在常见力学问题中，方法可以将高至9维的数据集压缩为分段的一至二维显式函数表达，从而为人类和机器科学家提供探索规律的基本工具。
+DDDA-数据驱动量纲分析，是一套**用于从数据中自动提取主控（新）无量纲数的开源代码。**代码可以在几乎不需要人工参与的条件下，从高维（多个参数或无量纲数控制）的数据集中，自动找到主导的（组合）无量纲数（供您命名），并按照无量纲数的形式分割整个数据区域，并在每个区域给出最优的经验公式。在常见力学问题中，方法可以将高至9维的数据集压缩为分段的一至二维显式函数表达，从而为人类和机器科学家提供探索规律的基本工具。
 
 ## 目录 :point_down:
 
