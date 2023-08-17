@@ -59,7 +59,7 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
 
 ### 安装
 
-#### 使用conda  
+#### conda  
 
 使用 Anaconda Prompt:  
  
@@ -99,7 +99,12 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
     ```
     pip install DDDA
     ```
-    
+
+#### Core Code  
+
+DDDAGO.py  v1.6  
+https://github.com/whoseboy/DDDA/blob/main/DDDA/DDDA/DDDAGO.py  
+
 
 
 
