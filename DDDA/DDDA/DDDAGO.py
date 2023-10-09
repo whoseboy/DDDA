@@ -859,7 +859,7 @@ class DDDA:
 
         class FuzzyKMeans3D:
 
-            def __init__(self, n_clusters=2, m=2, max_iter=100, tol=1e-4):
+            def __init__(self, n_clusters=8, m=2, max_iter=100, tol=1e-4):
                 self.n_clusters = n_clusters
                 self.m = m
                 self.max_iter = max_iter
