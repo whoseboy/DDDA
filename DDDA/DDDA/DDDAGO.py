@@ -66,7 +66,7 @@ class DDDA:
             try: 
                 self.Claster = kwargs['Claster']
             except:
-                print('default Claster is 2')
+                print('default Cluster is 2')
                 self.Claster = 2
             else:
                 self.Claster = kwargs['Claster']       
@@ -827,12 +827,11 @@ class DDDA:
         LastEigenvectorABS = np.zeros((lenDD, 3))
         for i in range(lenDD):
         # for i in range(1):
-
             pFpi = np.vstack((DD1[i], DD2[i], DD3[i]))
-        #     print(pFpi)
+            #print(pFpi)#1*3
         #     WW = np.outer(pFpi, pFpi.transpose())
             WW = np.dot(pFpi, pFpi.transpose())
-        #     print(WW)
+            #print(WW)
             Eigenvalues, Eigenvectors = np.linalg.eig(WW)
         #     print(Eigenvalues)
         #     print(Eigenvectors)
@@ -860,7 +859,7 @@ class DDDA:
 
         class FuzzyKMeans3D:
 
-            def __init__(self, n_clusters=8, m=2, max_iter=100, tol=1e-4):
+            def __init__(self, n_clusters=2, m=2, max_iter=100, tol=1e-4):
                 self.n_clusters = n_clusters
                 self.m = m
                 self.max_iter = max_iter
@@ -881,6 +880,7 @@ class DDDA:
                 for i in range(self.max_iter):
                     # Update Belongingbility
                     distances = np.linalg.norm(X[:, None, :] - centers[None, :, :], axis=2)
+                    distances[distances == 0] = 1e-10  
                     U_new = 1 / distances ** (2 / (self.m - 1))
                     U_new /= np.sum(U_new, axis=1)[:, None]
 
@@ -958,16 +958,6 @@ class DDDA:
         print('Ra: ', Coord_RegionA, '\n', 'Rb: ', Coord_RegionB)
 
 #         print(EigneValue_MaxIndex_RegionA)
-
 #         print(Eigenvectors_RegionA)
-
 #         print(EigneValue_MaxIndex_RegionB)
-
 #         print(Eigenvectors_RegionB)
-
-
-# In[ ]:
-
-
-
-
