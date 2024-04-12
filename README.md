@@ -87,7 +87,7 @@ https://github.com/whoseboy/DDDA/tree/989c8f1f55662becfd0f7311ec50d1b553e48806/D
     *需要安装的代码包:*
 
     ```
-    conda install numpy pandas scipy copy math numba sklearn pylab operator random
+    conda install numpy pandas scipy numba scikit-learn
     ```
     *可以选装的代码包 —— 用于可视化和计时:*
 
