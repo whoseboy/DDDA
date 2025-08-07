@@ -1,6 +1,14 @@
 # DDDA (Data Driven Dimensional Analysis) v1.6.1
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # 数据驱动量纲分析 v1.6.1
@@ -205,8 +213,6 @@ This package can evaluate the rest of work automatically if the reasearcher gets
 
 ### 输入的数据结构
 
-👥 See all [contributors here](https://github.com/whoseboy/DDDA/graphs/contributors).
-
 ## FAQ
 
 ## 问题和支持
@@ -251,6 +257,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
