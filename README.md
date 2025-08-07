@@ -1,4 +1,7 @@
 # DDDA (Data Driven Dimensional Analysis) v1.6.1
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # 数据驱动量纲分析 v1.6.1
 
@@ -238,3 +241,16 @@ v2.0.0 - 对噪声的传播进行定量化。
 **v0.3.1** 截止到分区的 MATLAB 下的三维代码实现
 
 **v0.2.0** 截止到分区的 MATLAB 下的二维代码实现
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
