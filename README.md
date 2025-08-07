@@ -1,6 +1,6 @@
 # DDDA (Data Driven Dimensional Analysis) v1.6.1
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # 数据驱动量纲分析 v1.6.1
@@ -251,6 +251,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/whoseboy"><img src="https://avatars.githubusercontent.com/u/34500062?v=4?s=100" width="100px;" alt="whoseboy"/><br /><sub><b>whoseboy</b></sub></a><br /><a href="#ideas-whoseboy" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/cocoJ-P"><img src="https://avatars.githubusercontent.com/u/89283198?v=4?s=100" width="100px;" alt="Jiashun Pang"/><br /><sub><b>Jiashun Pang</b></sub></a><br /><a href="https://github.com/whoseboy/DDDA/commits?author=cocoJ-P" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
